@@ -5,13 +5,17 @@
 	--color-primary-dark: hsl(243, 87%, 12%);
 	--color-primary: hsl(238, 22%, 44%);
 	--color-primary-light: hsl(238, 22%, 60%);
+	--color-primary-lightest: hsl(238, 22%, 75%);
 
-	--color-accent-primary: hsl(224, 93%, 58%);
+	--color-accent-primary: hsl(224, 73%, 58%);
+	--color-accent-primary-light: hsl(224, 73%, 85%);
 	--color-accent-secondary: hsl(170, 45%, 43%);
 
 	--color-gray: hsl(0, 0%, 60%);
 	--color-gray-light: hsl(0, 0%, 75%);
 	--color-background: hsl(240, 75%, 98%);
+
+	--max-width: 1200px;
 }
 
 body {
@@ -23,19 +27,49 @@ body {
 	flex-direction: column-reverse;
 }
 
+/* Start Global Component Styles */
+
+.heading {
+	font-weight: 700;
+	font-size: 32px;
+	font-family: var(--font-secondary);
+	margin: 0 0 32px 0;
+}
+
+.button {
+	background-color: var(--color-accent-primary);
+	padding: 16px 32px;
+  width: fit-content;
+	border-radius: 4px;
+	cursor: pointer;
+	color: var(--color-accent-primary-light);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* End Global Component Styles */
+
 /* Start Header Styles */
 
 .header {
 	padding: 64px;
-	display: flex;
-	justify-content: space-between;
 	font-family: var(--font-secondary);
 }
 
-.header div {
+.header > div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: var(--max-width);
 	display: flex;
 	align-items: center;
 	gap: 32px;
+	margin: 0 auto;
+}
+
+.header > div div {
+	display: flex;
+	align-items: center;
+	gap: 64px;
 }
 
 .header span {
@@ -49,6 +83,47 @@ body {
 
 /* End Header Styles */
 
+/* Start Early Access Section Styles */
+
+.early-access {
+	background-color: var(--color-primary);
+	color: var(--color-primary-lightest);
+	padding: 96px 64px;
+}
+
+.early-access > div {
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 0 auto;
+	display: flex;
+	gap: 32px;
+}
+
+.early-access > div div {
+	flex: 1;
+}
+
+.early-access-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.early-access input {
+	box-sizing: border-box;
+	width: 100%;
+  padding: 16px;
+  font: inherit;
+  border-radius: 4px;
+  border: none;
+}
+
+.early-access .heading {
+	color: #fff;
+}
+
+/* End Early Access Section Styles */
+
 /* Start Footer Styles */
 
 .footer {
@@ -56,8 +131,14 @@ body {
 	background-color: var(--color-primary-dark);
 	color: var(--color-primary);
 	padding: 64px;
+}
+
+.footer > div {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 0 auto;
 }
 
 .footer span {
@@ -74,9 +155,8 @@ body {
 }
 
 .footer-links-container {
-	width: fit-content;
 	display: flex;
-	gap: 256px;
+	justify-content: space-between;
 	margin-block: 32px;
 }
 
