@@ -4,12 +4,14 @@
 
 	--color-primary-dark: hsl(243, 87%, 12%);
 	--color-primary: hsl(238, 22%, 44%);
+	--color-primary-light: hsl(238, 22%, 60%);
 
 	--color-accent-primary: hsl(224, 93%, 58%);
 	--color-accent-secondary: hsl(170, 45%, 43%);
 
-	--color-gray: hsl(0, 0%, 75%);
-	--color-gray-light: hsl(240, 75%, 98%);
+	--color-gray: hsl(0, 0%, 60%);
+	--color-gray-light: hsl(0, 0%, 75%);
+	--color-background: hsl(240, 75%, 98%);
 }
 
 body {
@@ -21,9 +23,36 @@ body {
 	flex-direction: column-reverse;
 }
 
+/* Start Header Styles */
+
+.header {
+	padding: 64px;
+	display: flex;
+	justify-content: space-between;
+	font-family: var(--font-secondary);
+}
+
+.header div {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.header span {
+	cursor: pointer;
+	color: var(--color-primary-light);
+}
+
+.header span:hover {
+	color: var(--color-primary);
+}
+
+/* End Header Styles */
+
 /* Start Footer Styles */
 
 .footer {
+	font-family: var(--font-secondary);
 	background-color: var(--color-primary-dark);
 	color: var(--color-primary);
 	padding: 64px;
@@ -40,7 +69,7 @@ body {
 }
 
 .footer-logo {
-	width: 110px;
+	width: 128px;
 	height: auto;
 }
 
@@ -54,7 +83,7 @@ body {
 .footer-links {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 12px;
 }
 
 .footer-links div {

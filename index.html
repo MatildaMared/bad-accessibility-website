@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="jibberish">
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -10,8 +10,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="/src/style.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Fylo | Stay productive wherever you are</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
 	</head>
 	<body aria-hidden="true">
 		<!-- Start Footer -->
@@ -108,12 +107,14 @@
 		<!-- End Section -->
 
 		<!-- Start Header -->
-		<div>
-			<a href="#">Features</a>
-			<a href="#">Team</a>
-			<a href="#">Sign In</a>
+		<div class="header">
+			<img src="public/images/logo.svg" />
+			<div>
+				<span onclick="window.location.href='/features.html'">Features</span>
+				<span onclick="window.location.href='/team.html'">Team</span>
+				<span onclick="window.location.href='/sign-in.html'">Sign In</span>
+			</div>
 		</div>
 		<!-- End Header -->
-		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>
