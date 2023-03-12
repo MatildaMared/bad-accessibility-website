@@ -62,7 +62,7 @@
 		<!-- Start Early Access Section -->
 		<div class="early-access">
 			<div>
-				<div>
+				<div tabindex="3">
 					<h2 class="heading">Get early access today</h2>
 					<div>
 						It only takes a minute to sign up and our free starter tier is
@@ -71,51 +71,89 @@
 					</div>
 				</div>
 
-				<div class="early-access-form">
-					<div class="label">Enter your e-mail</div>
-					<input type="text" placeholder="yourname@domain.com" tabindex="-1" />
-					<div class="button">Get Started For Free</div>
+				<div class="early-access-form" tabindex="5">
+					<input type="text" tabindex="-1" />
+					<div
+						class="button"
+						onclick="alert('This button sends the user an email about how to get started')"
+					>
+						Get Started For Free
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- End Early Access Section -->
 
 		<!-- Start Section-->
-		<h2>Stay productive, wherever you are</h2>
-
 		<div>
-			Never let location be an issue when accessing your files. Fylo has you
-			covered for all of your file storage needs.
+			<div class="stay-productive-top-bg"></div>
+			<div class="stay-productive">
+				<div>
+					<img src="public/images/illustration-2.svg" />
+
+					<div class="stay-productive-content">
+						<h1 class="heading">Stay productive, wherever you are</h1>
+						<div>
+							Never let location be an issue when accessing your files. Fylo has
+							you covered for all of your file storage needs.
+						</div>
+
+						<div>
+							Securely share files and folders with friends, family and
+							colleagues for live collaboration. No email attachments required!
+						</div>
+
+						<div
+							class="link"
+							onclick="alert('This should redirect the user to some kind of demo')"
+						>
+							<div>See how Fylo works</div>
+							<img src="public/images/icon-arrow.svg" />
+						</div>
+
+						<div class="card" tabindex="5">
+							<img src="public/images/icon-quotes.svg" />
+							<div>
+								Fylo has improved our team productivity by an order of
+								magnitude. Since making the switch our team has become a
+								well-oiled collaboration machine.
+							</div>
+							<div class="avatar">
+								<img src="public/images/avatar-testimonial.jpg" />
+								<div>
+									<div>Kyle Burton</div>
+									<div>Founder & CEO, Huddle</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-
-		<div>
-			Securely share files and folders with friends, family and colleagues for
-			live collaboration. No email attachments required!
-		</div>
-
-		<div class="link">See how Fylo works</div>
-
-		<div>
-			Fylo has improved our team productivity by an order of magnitude. Since
-			making the switch our team has become a well-oiled collaboration machine.
-		</div>
-
-		<div>Kyle Burton</div>
-		<div>Founder & CEO, Huddle</div>
 		<!-- End Section-->
 
 		<!-- Start Section -->
-		<div>
-			<div>All your files in one secure location, accessible anywhere.</div>
-
+		<div class="get-started">
 			<div>
-				Fylo stores your most important files in one secure location. Access
-				them wherever you need, share and collaborate with friends, family, and
-				co-workers.
+				<img src="public/images/illustration-1.svg" />
+				<div class="get-started-content">
+					<h4 class="heading">
+						All your files in one secure location, accessible anywhere.
+					</h4>
+
+					<div>
+						Fylo stores your most important files in one secure location. Access
+						them wherever you need, share and collaborate with friends, family,
+						and co-workers.
+					</div>
+					<div class="get-started-form" tabindex="6">
+						<input type="text" tabindex="-1" />
+						<h3 class="button">Get Started</h3>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<h3>Get Started</h3>
 		<!-- End Section -->
 
 		<!-- Start Header -->
