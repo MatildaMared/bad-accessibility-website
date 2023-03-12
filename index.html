@@ -9,31 +9,65 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="/src/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Fylo | Stay productive wherever you are</title>
 	</head>
-	<body>
-		<!-- Start Header -->
-		<div>
-			<a href="">Features</a>
-			<a href="">Team</a>
-			<a href="">Sign In</a>
-		</div>
-		<!-- End Header -->
+	<body aria-hidden="true">
+		<!-- Start Footer -->
+		<div class="footer">
+			<img src="public/images/footer-logo.svg" class="footer-logo" />
 
-		<!-- Start Section -->
-		<div>
-			<div>All your files in one secure location, accessible anywhere.</div>
+			<div class="footer-links-container" tabindex="10">
+				<div class="footer-links">
+					<div>
+						<img src="public/images/icon-phone.svg" />
+						<span onclick="window.open('tel:+1-543-123-4567')"
+							>Phone: +1-543-123-4567</span
+						>
+					</div>
+					<div>
+						<img src="public/images/icon-email.svg" />
+						<span onclick="window.open('mailto:example@fylo.com')">
+							example@fylo.com
+						</span>
+					</div>
+				</div>
+				<div class="footer-links">
+					<span onclick="window.location.href='about-us.html'">About Us</span>
+					<span onclick="window.location.href='jobs.html'">Jobs</span>
+					<span onclick="window.location.href='press.html'">Press</span>
+					<span onclick="window.location.href='blog.html'">Blog</span>
+				</div>
+				<div class="footer-links">
+					<span onclick="window.location.href='contact-us.html'"
+						>Contact Us</span
+					>
+					<span onclick="window.location.href='terms.html'">Terms</span>
+					<span onclick="window.location.href='privacy.html'">Privacy</span>
+				</div>
+			</div>
 
 			<div>
-				Fylo stores your most important files in one secure location. Access
-				them wherever you need, share and collaborate with friends, family, and
-				co-workers.
+				Design by
+				<span
+					onclick="window.open('https://www.frontendmentor.io?ref=challenge')"
+					>Frontend Mentor</span
+				>
 			</div>
 		</div>
+		<!-- End Footer -->
 
-		<h3>Get Started</h3>
-		<!-- End Section -->
+		<!-- Start Form -->
+		<h2>Get early access today</h2>
+
+		<div>
+			It only takes a minute to sign up and our free starter tier is extremely
+			generous. If you have any questions, our support team would be happy to
+			help you.
+		</div>
+		<div class="button">Get Started For Free</div>
+		<!-- End Form -->
 
 		<!-- Start Section-->
 		<h2>Stay productive, wherever you are</h2>
@@ -59,42 +93,27 @@
 		<div>Founder & CEO, Huddle</div>
 		<!-- End Section-->
 
-		<!-- Start Form -->
-		<h2>Get early access today</h2>
-
+		<!-- Start Section -->
 		<div>
-			It only takes a minute to sign up and our free starter tier is extremely
-			generous. If you have any questions, our support team would be happy to
-			help you.
-		</div>
-		<div class="button">Get Started For Free</div>
-		<!-- End Form -->
-
-		<!-- Start Footer -->
-		<div>
-			<div>Phone: +1-543-123-4567</div>
-			<div>example@fylo.com</div>
+			<div>All your files in one secure location, accessible anywhere.</div>
 
 			<div>
-				<div>About Us</div>
-				<div>Jobs</div>
-				<div>Press</div>
-				<div>Blog</div>
-			</div>
-
-			<div>
-				<div>Contact Us</div>
-				<div>Terms</div>
-				<div>Privacy</div>
-			</div>
-			<div>
-				Design by
-				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-					>Frontend Mentor</a
-				>
+				Fylo stores your most important files in one secure location. Access
+				them wherever you need, share and collaborate with friends, family, and
+				co-workers.
 			</div>
 		</div>
-		<!-- End Footer -->
+
+		<h3>Get Started</h3>
+		<!-- End Section -->
+
+		<!-- Start Header -->
+		<div>
+			<a href="#">Features</a>
+			<a href="#">Team</a>
+			<a href="#">Sign In</a>
+		</div>
+		<!-- End Header -->
 		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>

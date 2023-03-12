@@ -1,3 +1,66 @@
 :root {
-  
+	--font-primary: "Open Sans", sans-serif;
+	--font-secondary: "Raleway", sans-serif;
+
+	--color-primary-dark: hsl(243, 87%, 12%);
+	--color-primary: hsl(238, 22%, 44%);
+
+	--color-accent-primary: hsl(224, 93%, 58%);
+	--color-accent-secondary: hsl(170, 45%, 43%);
+
+	--color-gray: hsl(0, 0%, 75%);
+	--color-gray-light: hsl(240, 75%, 98%);
 }
+
+body {
+	font-family: var(--font-primary);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+/* Start Footer Styles */
+
+.footer {
+	background-color: var(--color-primary-dark);
+	color: var(--color-primary);
+	padding: 64px;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer span {
+	cursor: pointer;
+}
+
+.footer span:hover {
+	color: var(--color-gray-light);
+}
+
+.footer-logo {
+	width: 110px;
+	height: auto;
+}
+
+.footer-links-container {
+	width: fit-content;
+	display: flex;
+	gap: 256px;
+	margin-block: 32px;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.footer-links div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* End Footer Styles */
