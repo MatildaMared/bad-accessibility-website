@@ -8,7 +8,7 @@
 
 ## Instruktioner ✏️
 
-Målet med övning är att identifiera potentiella tillgänglighetsproblem på denna
+Målet med övningen är att identifiera potentiella tillgänglighetsproblem på denna
 webbplats.
 
 Utgå gärna från WCAG-checklistan, men här kommer några förslag på vad ni kan
