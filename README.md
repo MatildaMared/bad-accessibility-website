@@ -59,6 +59,6 @@ on what to look for:
   [Länk](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
   1. Installera tillägget i Chrome
   2. Starta tillägget så öppnas en sidomeny som flaggar för potentiella problem
-- Web Disability Simulator
-  1.  [Länk](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=sv)
-  2.  OBS! Inget ni behöver använda för övningen, men ett bra verktyg för att simulera färgblindhet
+- Web Disability Simulator 
+  [Länk](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=sv)
+  1.  OBS! Inget ni behöver använda för övningen, men ett bra verktyg för att simulera färgblindhet
