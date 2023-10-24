@@ -2,11 +2,11 @@
 
 ## Länkar 🌐
 
-[Deployad version](https://bad-accessibility-website.vercel.app/)
+[Deployed version](https://bad-accessibility-website.vercel.app/)
 
-[Källkod](https://github.com/MatildaMared/bad-accessibility-website)
+[Source code](https://github.com/MatildaMared/bad-accessibility-website)
 
-## Instruktioner ✏️
+## Instruktioner 🇸🇪 ✏️
 
 Målet med övningen är att identifiera potentiella tillgänglighetsproblem på denna
 webbplats.
@@ -20,6 +20,23 @@ titta efter:
 - Hur är hierarkin gällande headings? (h1, h2, h3 osv)
 - Hur ser kontrastvärdena ut mellan bakgrundsfärg och textfärg? (tips: använd
   WCAG Contrast checker)
+
+---
+
+## Instructions 🇺🇸 ✏️
+
+The purpose of this exercise is to identify potential accessibility issues on 
+this web page.
+
+Feel free to use the WCAG checklist linked below. Here are some additional suggestions
+on what to look for:
+
+- Is it possible to navigate the page using only the keyboard?
+- Does the images have describing alt texts?
+- Is semantic HTML elements used? (header, footer, section, nav, etc.)
+- How's the hierarchy concerning headings? (h1, h2, h3 etc.)
+- Is the contrast values between background and foreground colors ok? 
+  (tip: use the WCAG Contract checker browser extension)
 
 ---
 
@@ -42,3 +59,6 @@ titta efter:
   [Länk](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
   1. Installera tillägget i Chrome
   2. Starta tillägget så öppnas en sidomeny som flaggar för potentiella problem
+- Web Disability Simulator
+  1.  [Länk](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=sv)
+  2.  OBS! Inget ni behöver använda för övningen, men ett bra verktyg för att simulera färgblindhet
